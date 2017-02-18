@@ -24,12 +24,16 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.data.Feature;
+import com.google.maps.android.data.kml.KmlContainer;
 import com.google.maps.android.data.kml.KmlLayer;
+import com.google.maps.android.data.kml.KmlPlacemark;
 
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 
+import static java.lang.System.getProperties;
 import static saltmineworkers.saltminehackathon.R.id.map;
 import static saltmineworkers.saltminehackathon.R.id.test;
 
@@ -43,6 +47,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private String category;
 
+
+
+    private static String property;
     private Marker testMarker;
     private static String lookingFor = "";
 
@@ -78,9 +85,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap = googleMap;
         MapFragment mapFrag = (MapFragment) getFragmentManager().findFragmentById(map);
         MainActivity mainActivity = new MainActivity();
-        boolean sport = mainActivity.isSport();
-        boolean culture = mainActivity.isCulture();
-        boolean recreation = mainActivity.isRecreation();
+
         if (mainActivity.isSport()) {
             try {
                 KmlLayer layer = new KmlLayer(mMap, R.raw.idrett, this);
@@ -95,6 +100,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         else if (mainActivity.isCulture()) {
             try {
                 KmlLayer layer = new KmlLayer(mMap, R.raw.kultur, this);
+                layer.getPlacemarks();
                 layer.addLayerToMap();
 
             } catch (IOException e) {
@@ -117,31 +123,38 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
 
-        LatLng sydney = new LatLng(-34, 151);
-        testMarker = googleMap.addMarker(new MarkerOptions().position(sydney)
-                .title("Marker in Sydney")
-                .snippet("My crib")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+      //  LatLng kristiansand = new LatLng(8.08265662771951,58.142915837605301);
+      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(kristiansand));
         mMap.setOnMarkerClickListener((GoogleMap.OnMarkerClickListener) this);
+
 
 
     }
 
     public boolean onMarkerClick(final Marker marker) {
-        if (marker.equals(testMarker)) {
+        MainActivity mainActivity = new MainActivity();
+
+        if (mainActivity.isSport()) {
+            setProperty("Idrett");
+        }
+        else if (mainActivity.isCulture()) {
+            setProperty("Kultur");
+
+        } else if (mainActivity.isRecreation()) {
+            setProperty("Rekreasjon");
+        }
             createPopup();
             return true;
-        }
-        return false;
+
+
     }
 
     public void createPopup() {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         final TextView et = new TextView(this);
         alertDialogBuilder.setView(et);
-        et.setText("You found Sidney");
+        String s = getProperty();
+        et.setText(s);
         alertDialogBuilder.setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
 
@@ -159,5 +172,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void setCategory(String category) {
         this.category = category;
     }
+    public static String getProperty() {
+        return property;
+    }
 
+    public static void setProperty(String property) {
+        MapsActivity.property = property;
+    }
 }
