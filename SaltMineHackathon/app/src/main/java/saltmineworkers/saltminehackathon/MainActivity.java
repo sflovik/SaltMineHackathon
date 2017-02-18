@@ -1,7 +1,9 @@
 package saltmineworkers.saltminehackathon;
 
 import android.content.Intent;
+import android.media.audiofx.BassBoost;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -21,6 +23,10 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
+    private static boolean culture = true;
+    private static boolean sport = true;
+    private static boolean recreation = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,22 +44,39 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        Button btnLookForActivity = (Button) findViewById(R.id.btnLookForActivity);
-        Button btnCreateActivity = (Button) findViewById(R.id.btnCreateActivity);
+        Button btnCulture = (Button) findViewById(R.id.btnCulture);
+        Button btnSports = (Button) findViewById(R.id.btnSports);
+        Button btnRecreation = (Button) findViewById(R.id.btnRecreation);
 
-        btnLookForActivity.setOnClickListener (new View.OnClickListener() {
+        btnCulture.setOnClickListener (new View.OnClickListener() {
             public void onClick(View v){
+                setCulture(true);
+                setSport(false);
+                setRecreation(false);
                 Intent i = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(i);
             }
         });
-        btnCreateActivity.setOnClickListener(new View.OnClickListener() {
+        btnSports.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                setCulture(false);
+                setSport(true);
+                setRecreation(false);
                 Intent i = new Intent (MainActivity.this, MapsActivity.class);
                 startActivity(i);
                 }
 
         });
+        btnRecreation.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v) {
+                setCulture(false);
+                setSport(false);
+                setRecreation(true);
+                Intent i = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 
     @Override
@@ -95,10 +118,14 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            //TODO Legg til menynavigasjon / tilpass meny
+            Intent i = new Intent (MainActivity.this, MainActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_profile) {
-
+            Intent i = new Intent (MainActivity.this, ProfileActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_settings) {
+            Intent i = new Intent(MainActivity.this, PreferenceActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_help) {
 
@@ -109,5 +136,28 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public boolean isCulture() {
+        return culture;
+    }
+
+    public void setCulture(boolean culture) {
+        this.culture = culture;
+    }
+
+    public boolean isSport() {
+        return sport;
+    }
+
+    public void setSport(boolean sport) {
+        this.sport = sport;
+    }
+
+    public boolean isRecreation() {
+        return recreation;
+    }
+
+    public void setRecreation(boolean recreation) {
+        this.recreation = recreation;
     }
 }

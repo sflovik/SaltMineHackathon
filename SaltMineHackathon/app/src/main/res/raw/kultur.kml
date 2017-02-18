@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Navn" type="string"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="Beskrivelse" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Hjemmeside" type="string"></SimpleField>
+	<SimpleField name="Hovedkategori" type="string"></SimpleField>
+	<SimpleField name="Underkategori" type="string"></SimpleField>
+	<SimpleField name="Tilleggskategori" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="Navn">Kristiansand kino</SimpleData>
+		<SimpleData name="Type">Kino</SimpleData>
+		<SimpleData name="Adresse">Vestre Strandgate 9, 4610 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.nfkino.no/kristiansand/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Kino</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.994596200764777,58.142896207554635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Navn">Kilden Teater- og Konserthus</SimpleData>
+		<SimpleData name="Type">Konserthus</SimpleData>
+		<SimpleData name="Adresse">Sjølystveien 2, 4610 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.kilden.com/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Konserthus</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.996515906928193,58.139225467395214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Navn">Rosegården Teaterhus</SimpleData>
+		<SimpleData name="Type">Teater</SimpleData>
+		<SimpleData name="Adresse">Teglverksveien 48, 4632 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.rosegardenteaterhus.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Teater</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.028255963110851,58.14820225757812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="Navn">Kilden Teater- og Konserthus</SimpleData>
+		<SimpleData name="Type">Teater</SimpleData>
+		<SimpleData name="Adresse">Sjølystveien 2, 4610 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.kilden.com/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Teater</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.996646563457086,58.138906695215773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="Navn">Agder Naturmuseum og botaniske hage</SimpleData>
+		<SimpleData name="Type">Museum</SimpleData>
+		<SimpleData name="Adresse">Gimleveien 23, 4686 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.naturmuseum.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Museum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.003729344872651,58.158791857818599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="Navn">Sørlandets kunstmuseum</SimpleData>
+		<SimpleData name="Type">Museum</SimpleData>
+		<SimpleData name="Adresse">Skippergata 24B,  4666 Kristiansand </SimpleData>
+		<SimpleData name="Hjemmeside">http://skmu.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Museum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.993620186123722,58.146916653723324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="Navn">Kristiansand Kanonmuseum</SimpleData>
+		<SimpleData name="Type">Museum</SimpleData>
+		<SimpleData name="Adresse">Kroodden, Møvig, 4677 Kristiansand </SimpleData>
+		<SimpleData name="Hjemmeside">http://www.kanonmuseet.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Museum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.967462292934125,58.091693613981199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="Navn">Bredalsholmen dokk-og fartøyvernsenter</SimpleData>
+		<SimpleData name="Type">Museum</SimpleData>
+		<SimpleData name="Adresse">Andøyveien 188, 4623 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.bredalsholmen.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Museum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.991382137429946,58.110490459484495</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="Navn">Kristiansand museum</SimpleData>
+		<SimpleData name="Type">Museum</SimpleData>
+		<SimpleData name="Adresse">Vigeveien 22B, 4689 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.vestagdermuseet.no/kristiansand/?c_id=7</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Museum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.029371360528085,58.162183914547199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="Navn">Gimle gård</SimpleData>
+		<SimpleData name="Type">Museum</SimpleData>
+		<SimpleData name="Adresse">Gimleveien 23, 4686 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.vestagdermuseet.no/gimlegard/?c_id=8</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Museum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.003345464683909,58.158554941077739</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="Navn">Odderøya museumshavn </SimpleData>
+		<SimpleData name="Type">Museum</SimpleData>
+		<SimpleData name="Adresse">Nodeviga 38, 4610 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.vestagdermuseet.no/odderoya/?c_id=92</SimpleData>
+		<SimpleData name="Hovedkategori">Kultur</SimpleData>
+		<SimpleData name="Underkategori">Museum</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.000207411752589,58.14057889952506</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
