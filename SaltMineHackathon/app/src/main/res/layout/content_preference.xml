@@ -57,15 +57,6 @@
     <CheckBox
         android:layout_width="40pt"
         android:layout_height="40pt"
-        android:id="@+id/preferences_checkbox2"
-        android:layout_below="@+id/textView5"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="11dp" />
-
-    <CheckBox
-        android:layout_width="40pt"
-        android:layout_height="40pt"
         android:id="@+id/preferences_checkbox3"
         android:layout_below="@+id/preferences_checkbox1"
         android:layout_alignParentRight="true"
@@ -95,6 +86,14 @@
         android:layout_marginRight="28dp"
         android:layout_marginEnd="28dp"
         android:id="@+id/button2" />
+
+    <CheckBox
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:id="@+id/preferences_checkbox2"
+        android:layout_above="@+id/preferences_checkbox1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>
