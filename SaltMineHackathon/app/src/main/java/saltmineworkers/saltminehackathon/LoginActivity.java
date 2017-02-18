@@ -77,14 +77,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                UserModel userModel = new UserModel();
-                userModel.setFirstName("Salt Mine");
-                userModel.setSurName("Worker");
-                userModel.setEmail("saltmine@worker.com");
-                userModel.setUsername("SaltMineWorker");
-                userModel.setPhoneNr(11223344);
-                userModel.setAge(24);
-                userModel.setInterest("Fotball");
+                UserModel userModel = new UserModel("Salt Mine", "Worker", "SaltMineWorker", "saltmine@worker.com", 11223344, 24);
+
+                // Initial thought to set interests and get activities based on them,
+                // ended up allowing user to specify the interests themselves by showing categories.
+                // userModel.setInterest("Fotball");
+
                 Intent i = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(i);
                 //TODO Fjernet kall til attemptLogin() for å bypasse innlogging under utvikling

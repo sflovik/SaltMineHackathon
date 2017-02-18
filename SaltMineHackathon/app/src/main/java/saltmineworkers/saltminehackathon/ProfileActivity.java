@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -33,6 +34,28 @@ public class ProfileActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        addTextToProfile();
+    }
+
+    public void addTextToProfile(){
+        UserModel userModel = new UserModel("Salt Mine", "Worker", "SaltMineWorker", "saltmine@worker.com", 11223344, 24);
+
+        TextView textViewName = (TextView) findViewById(R.id.profile_name_view);
+        TextView textViewUserName = (TextView) findViewById(R.id.profile_username);
+        TextView textViewEmail = (TextView) findViewById(R.id.profile_email);
+        TextView textViewPhoneNumber = (TextView) findViewById(R.id.profile_phone);
+        TextView textViewAge = (TextView) findViewById(R.id.profile_age);
+
+        textViewName.setText(userModel.getFirstName() + " " + userModel.getSurName());
+        textViewUserName.setText(userModel.getUsername());
+        textViewEmail.setText(userModel.getEmail());
+
+        Integer userPhoneNumber = new Integer(userModel.getPhoneNr());
+        Integer userAge = new Integer(userModel.getAge());
+
+        textViewPhoneNumber.setText(userPhoneNumber.toString());
+        textViewAge.setText(userAge.toString());
     }
 
     @Override

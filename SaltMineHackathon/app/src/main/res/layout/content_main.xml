@@ -14,19 +14,6 @@
     tools:showIn="@layout/app_bar_main">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kultur"
-        android:textAllCaps="false"
-        android:layout_marginBottom="202dp"
-        android:id="@+id/btnCulture"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/btnRecreation"
-        android:layout_alignStart="@+id/btnRecreation"
-        android:layout_alignRight="@+id/btnRecreation"
-        android:layout_alignEnd="@+id/btnRecreation" />
-
-    <Button
         android:text="Rekreasjon"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -46,6 +33,19 @@
         android:id="@+id/btnSports"
         android:layout_alignBottom="@+id/btnRecreation"
         android:layout_marginBottom="68dp"
+        android:layout_alignLeft="@+id/btnRecreation"
+        android:layout_alignStart="@+id/btnRecreation"
+        android:layout_alignRight="@+id/btnRecreation"
+        android:layout_alignEnd="@+id/btnRecreation" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kultur"
+        android:textAllCaps="false"
+        android:id="@+id/btnCulture"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/btnRecreation"
         android:layout_alignLeft="@+id/btnRecreation"
         android:layout_alignStart="@+id/btnRecreation"
         android:layout_alignRight="@+id/btnRecreation"

@@ -8,16 +8,16 @@ package saltmineworkers.saltminehackathon;
  */
 
 public class UserModel {
-    private static String firstName;
-    private static String surName;
-    private static String username;
-    private static String email;
-    private static int phoneNr;
-    private static int age;
-    private static String interest;
+    private String firstName;
+    private String surName;
+    private String username;
+    private String email;
+    private int phoneNr;
+    private int age;
+    private String interest;
 
-    /**
-    public void UserModel(String firstName, String surName, String username, String email, int phoneNr, int age) {
+
+    public UserModel(String firstName, String surName, String username, String email, int phoneNr, int age) {
         this.firstName = firstName;
         this.surName = surName;
         this.username = username;
@@ -26,7 +26,6 @@ public class UserModel {
         this.age = age;
 
     }
-     */
 
     public String getFirstName() {
         return firstName;
