@@ -77,6 +77,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+                UserModel userModel = new UserModel();
+                userModel.setFirstName("Salt Mine");
+                userModel.setSurName("Worker");
+                userModel.setEmail("saltmine@worker.com");
+                userModel.setUsername("SaltMineWorker");
+                userModel.setPhoneNr(11223344);
+                userModel.setAge(24);
+                userModel.setInterest("Fotball");
                 Intent i = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(i);
                 //TODO Fjernet kall til attemptLogin() for å bypasse innlogging under utvikling
