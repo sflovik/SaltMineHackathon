@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Navn" type="string"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="Beskrivelse" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Hjemmeside" type="string"></SimpleField>
+	<SimpleField name="Hovedkategori" type="string"></SimpleField>
+	<SimpleField name="Underkategori" type="string"></SimpleField>
+	<SimpleField name="Tilleggskategori" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="Navn">Bjåvann golfbane</SimpleData>
+		<SimpleData name="Type">Golfbane</SimpleData>
+		<SimpleData name="Beskrivelse">Bjaavann er et smykke av en golfbane. Hvert hull er unikt og med 6 utslag å velge mellom er det nok av utfordringer til golfere på alle nivåer.</SimpleData>
+		<SimpleData name="Adresse">Østre Ålefjærvei 195, 4634 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.bjaavanngk.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Golfbane</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.051632109122981,58.246033504332196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Navn">Korsvik golfbane</SimpleData>
+		<SimpleData name="Type">Golfbane</SimpleData>
+		<SimpleData name="Beskrivelse">Kristiansand Golfklubb har en 9-hull bane som ligger i naturskjønne omgivelser. Banen er å betrakte som en &quot;skogsbane&quot; hvor man kommer tett på naturen og hvor utfordringene er mange. I tillegg har klubben i 2013 bygget en helt ny korthullsbane over 6 hull som tas i bruk i løpet av 2014. Det vil si at klubben har et anlegg som gir et stort bruksområde og hvor det lett å finne seg til rette.</SimpleData>
+		<SimpleData name="Adresse">Dvergsnesveien 125, 4638 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://kristiansandgk.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Golfbane</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.08265662771951,58.142915837605301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Navn">Aquarama</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Tangen 8, 4608 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.aquarama.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.006014685014609,58.147127301706227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="Navn">Gimlehallen</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Jegersbergveien 3, 4630 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.009098661103703,58.16114207670617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="Navn">Idda Arena</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Møllevannsveien 36, 4616 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/idda-arena/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.972820639011362,58.146543607385404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="Navn">Kristiansand Stadion</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Østre Ringvei 2, 4632 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.021693807904224,58.147657327127078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="Navn">Sparebanken Sør Arena</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Stadionveien 21, 4638 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.029085377071262,58.153710440091167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="Navn">Sørlandshallen</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Travparkveien 24, 4636 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.149046446205942,58.179468163180559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="Navn">Flekkerøy idrettspark</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Lindebøskauen 99, 4625 Flekkerøy</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.000674672347152,58.089531428062202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="Navn">Fiskåbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Kirsten Flagstadsvei 28, 4621 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.95319892295625,58.126681740921995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="Navn">Hellemyr idrettsanlegg</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Hellemyrbakken 70, 4628 Kristiansand </SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.933118616673463,58.14725226392644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="Navn">Kartemyrbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Breimyrveien 100, 4628 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.926087611024708,58.15136939465269</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="Navn">Karuss idrettspark</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Karussveien 15, 4620 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.945223874093569,58.130261827796822</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="Navn">Kirkebanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Nordre Hovedgårdsvei, 4623 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.956483338119058,58.122908686781223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="Navn">Krossebanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Krosseveien 41, 4617 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.960421451253904,58.149816720509897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="Navn">Møvighallen</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Flatholmveien 1, 4623 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.972879625027763,58.104131801818582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="Navn">Slettheibanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Slettheiveien 71A, 4626 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.9319925585894,58.13632606617832</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="Navn">Torridal idrettspark</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Setesdalsveien 359, 4618 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.925788819625268,58.20265180624385</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="Navn">Voiebanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Voie Ringvei 112, 4624 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.950182379277199,58.099660205236184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="Navn">Vågsbygdhallen</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Kirsten Flagstads vei 24, 4621 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.956983623406864,58.12537379915333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="Navn">Vågsbygd idrettsplass</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Hundebakken  B, 4622 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.953959429979086,58.116072348539277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="Navn">Dønnestad idrettsplass</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Dønnestadveien 98, 4658 Tveit</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.124838891078529,58.214829617525417</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="Navn">Fagerholtbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Tretjønnveien 2, 4633 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.033352766509395,58.178782435875412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="Navn">Gimlebanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Jegersbergveien 3, 4630 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.007400025687101,58.160289354971404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="Navn">Gimle Sandvolleyballbane</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Jegersbergveien 3, 4630 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.008574505436769,58.16003183139113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="Navn">Havlimyra idrettspark</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Havliveien 8, 4634 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.032398371769929,58.191273797937804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="Navn">Justvikbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Grotjønnveien 4F, 4634 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.031894573321981,58.20095091294337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="Navn">Kongsgårdbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Bispegra 49, 4632 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.024149290253975,58.161119861794752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="Navn">Kristiansand Badmintonsenter</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Kongsgård allé 33C, 4632 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.017029583458843,58.156853968233918</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="Navn">Odderneshallen</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">St. Olavs vei 22, 4631 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.01647256077748,58.157044430505806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="Navn">Odderøyhallen</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Sjølystveien 5, 4610 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.998284433939476,58.138231549162811</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="Navn">Presteheiabanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Tretjønnveien 100, 4633 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.01297401298261,58.168094921278296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="Navn">Tretjønnbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Bergtoras vei 62B, 4633 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.022350654555437,58.171105810351591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="Navn">Håneshallen</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Jordbærveien 2, 4635 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.093281748002104,58.175704902465846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="Navn">Haumyrbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Haumyrveien 39B, 4637 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.066409488939009,58.156870115291298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="Navn">Holtebanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Bordalsbakken 5, 4639 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.094980192414601,58.127560340283374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="Navn">Kringsjå idrettsplass</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Kongshavnveien 110, 4639 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.114120428282151,58.127935535901017</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="Navn">Hånnibanen (Kiwi-løkka)</SimpleData>
+		<SimpleData name="Type">Idrettshall</SimpleData>
+		<SimpleData name="Adresse">Hånesveien 61, 4635 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettshall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.088690133090397,58.181220164750791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="Navn">Kristiansand Motocross Bane</SimpleData>
+		<SimpleData name="Type">Motosport</SimpleData>
+		<SimpleData name="Adresse">Skibåsen, 4636 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.kristiansand-mx.com/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Motosport</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.116509085101105,58.175112086736007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="Navn">Skibåsen speedwaybane</SimpleData>
+		<SimpleData name="Type">Motosport</SimpleData>
+		<SimpleData name="Adresse">Skibåsen19, 4636 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://nmk-kristiansand.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Motosport</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.117039852102439,58.173026757938786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="Navn">Skibåsen trialbane</SimpleData>
+		<SimpleData name="Type">Motosport</SimpleData>
+		<SimpleData name="Adresse">Skibåsen 21, 4636 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://kristiansandtrialklubb.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Motosport</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.115236499708706,58.173916176330096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="Navn">Solsletta idrettsplass</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Solsletta 13B, 4658 Tveit</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.118828794583083,58.23512360412429</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="Navn">Solviga</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Solvika, 4635 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.085488988320154,58.178967913327234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="Navn">Sukkevann idrettspark</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Dvergsnesveien 27, 4638 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.087772865538545,58.151564661326837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="Navn">Vardåsbanen</SimpleData>
+		<SimpleData name="Type">Idrettsanlegg</SimpleData>
+		<SimpleData name="Adresse">Marikollen 15, 4638 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/idrett/idrettsanlegg/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Idrettsanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.063840801644274,58.147792163599391</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="Navn">Aquarama</SimpleData>
+		<SimpleData name="Type">Svømmehall</SimpleData>
+		<SimpleData name="Adresse">Tangen 8, 4608 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.aquarama.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Svømmehall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.00691954598078,58.146769674575459</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="Navn">Spicheren</SimpleData>
+		<SimpleData name="Type">Svømmehall</SimpleData>
+		<SimpleData name="Adresse">Gimlemoen 1, 4630 Kristiansand </SimpleData>
+		<SimpleData name="Hjemmeside">http://spicheren.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Svømmehall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.008685804987893,58.162359937412013</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="Navn">Badelandet</SimpleData>
+		<SimpleData name="Type">Svømmehall</SimpleData>
+		<SimpleData name="Adresse">Dyreparkveien 3, 4636 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.dyreparken.no/Badelandet/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Svømmehall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.143542549348217,58.188176469738124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="Navn">Vågsbygd kultursenter</SimpleData>
+		<SimpleData name="Type">Svømmehall</SimpleData>
+		<SimpleData name="Adresse">Kirsten Flagstads vei 30, 4621 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/til-leie/vagsbygd-kultursenter/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Svømmehall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.953786186225502,58.125523297583321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="Navn">Gimlehallen</SimpleData>
+		<SimpleData name="Type">Skytebane</SimpleData>
+		<SimpleData name="Adresse">Jegersbergveien 3, 4630 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.kristiansandpistolklubb.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Skytebane</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.009822241430852,58.161424076729418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="Navn">Farvannet Skytebane</SimpleData>
+		<SimpleData name="Type">Skytebane</SimpleData>
+		<SimpleData name="Adresse">Østre Ålefjærvei  261, 4634 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.dfs.no/kristiansandogomegn</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Skytebane</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.065659956358109,58.238311722371805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="Navn">Kjevik filmskytebane</SimpleData>
+		<SimpleData name="Type">Skytebane</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Skytebane</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.082710666101848,58.209285121150025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="Navn">Hågenmyr skytebane</SimpleData>
+		<SimpleData name="Type">Skytebane</SimpleData>
+		<SimpleData name="Adresse">&lt;Null&gt;</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Skytebane</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.86880719152135,58.201623278862826</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="Navn">Grotjønn skytebane</SimpleData>
+		<SimpleData name="Type">Skytebane</SimpleData>
+		<SimpleData name="Adresse">&lt;Null&gt;</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Skytebane</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.934902076943993,58.154531880274696</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="Navn">Tveit skisenter</SimpleData>
+		<SimpleData name="Type">Alpinanlegg</SimpleData>
+		<SimpleData name="Adresse">Kalvåsveien 8, 4658 Tveit
+</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.tveitskisenter.com/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Alpinanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.10478914373892,58.205126110915998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="Navn">Gillsvann kajakkanlegg</SimpleData>
+		<SimpleData name="Type">Kajakkanlegg</SimpleData>
+		<SimpleData name="Adresse">Gillsveien 10, 4633 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://kristiansandkajakklubb.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Kajakkanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.031241897241999,58.183345666908117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="Navn">Nodeviga kajakkanlegg</SimpleData>
+		<SimpleData name="Type">Kajakkanlegg</SimpleData>
+		<SimpleData name="Adresse">Nodeviga 5, 4610 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://kristiansandkajakklubb.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Kajakkanlegg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.998333592653364,58.141489960971626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="Navn">Fitness 24/7 AS</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Lauvåsen Hovedvei 1, 4656 Hamresanden</SimpleData>
+		<SimpleData name="Hjemmeside">http://fitness247.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.098218294718041,58.180347262569789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="Navn">Shapes Fitness Østsia</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Barstølveien 50, 4636 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.shapes.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.130627184783556,58.175712436074107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="Navn">Spicheren</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Gimlemoen 1, 4630 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://spicheren.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.008125316120877,58.162184894171467</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="Navn">Elixia</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Kjøita 17, 4630 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.sats.no/satselixia/treningssentre/kristiansand/kristiansand-kjoita-elixia/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.003282576367191,58.15308681974949</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="Navn">Lund Fysioterapi og Trening</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Marviksveien 1, 4631 Kristiansand</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.009581924965261,58.152585455970097</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="Navn">Fresh Fitness</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Industrigata 6, 4632 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.freshfitness.no/treningssenter/kristiansand-lund</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.02559769772213,58.151367372930395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="Navn">Kristiansand Sportssenter</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Beskrivelse">Treningssenter i Starthallen</SimpleData>
+		<SimpleData name="Adresse">Marviksveien 94, 4632 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://krss.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.025130537443394,58.149709688310303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="Navn">Aquarama</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Tangen 8, 4608 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.aquarama.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.006483360253826,58.14695725117771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="Navn">Kristiansand sport-senter</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Dronningens gate 52, 4608 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://krss.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.001639021527756,58.147363088966351</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="Navn">Elixia</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Henrik Wergelands gate 29, 4612 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.sats.no/satselixia/treningssentre/kristiansand/kristiansand-sentrum-elixia/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.992600961875122,58.147746140516638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="Navn">Fresh Fitness</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Henrik Wergelandsgt 27, 4612 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.freshfitness.no/treningssenter/kristiansand-sentrum</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.992228934119794,58.147546744842813</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="Navn">Bear Cave</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Grågåsveien 43A, 4622 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://bearcave.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.936516757349072,58.121290505061204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="Navn">Spring</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Vågsbygd Ringvei 5A, 4620 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.springtrening.no/vagsbygd</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.959746947742874,58.11769663978059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="Navn">Spring</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Rona 2, 4638 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://www.springtrening.no/rona</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.081109305548225,58.160563578233983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="Navn">Solsiden PT-Senter</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Markens gate 34, 4612 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://solsidenpt.no/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.991431714148518,58.146584455206558</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="Navn">Elixia</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Fiskåveien 4, 4621 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.sats.no/satselixia/treningssentre/kristiansand/kristiansand-vagsbygd-elixia/</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.964070490945435,58.127161424151474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="Navn">Bare Trening</SimpleData>
+		<SimpleData name="Type">Treningssenter</SimpleData>
+		<SimpleData name="Adresse">Lumberveien 5, 4621 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">http://baretrening.no/v%C3%A5re-sentre-kristiansand/bare-trening-kristiansand</SimpleData>
+		<SimpleData name="Hovedkategori">Idrett</SimpleData>
+		<SimpleData name="Underkategori">Treningssenter</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.963157005148655,58.12484776519544</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

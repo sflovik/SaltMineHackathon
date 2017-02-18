@@ -35,4 +35,5 @@
         android:layout_alignStart="@+id/btnCreateActivity"
         android:layout_alignRight="@+id/btnCreateActivity"
         android:layout_alignEnd="@+id/btnCreateActivity" />
+
 </RelativeLayout>

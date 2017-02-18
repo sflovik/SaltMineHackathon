@@ -23,6 +23,11 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.data.kml.KmlLayer;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
 
 import static saltmineworkers.saltminehackathon.R.id.map;
 import static saltmineworkers.saltminehackathon.R.id.test;
@@ -56,7 +61,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
         MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(map);
+
         mapFragment.getMapAsync(this);
+
 
 
 
@@ -67,7 +74,19 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
         mMap = googleMap;
+        MapFragment mapFrag = (MapFragment) getFragmentManager().findFragmentById(map);
+        try {
+            KmlLayer layer = new KmlLayer(mMap, R.raw.idrett, this);
+            layer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
+
+
         LatLng sydney = new LatLng(-34, 151);
         testMarker = googleMap.addMarker(new MarkerOptions().position(sydney)
                 .title("Marker in Sydney")
