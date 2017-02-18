@@ -16,4 +16,6 @@ Eksempel på events som kan opprettes og avholdes gjennom appen: fotballturnerin
 
 Det er ønskelig med et samarbeid med Universitetet i Agder og Kristiansand Kommune for å få synliggjort appen og tiltrekke seg brukere. Dette kan forhåpentligvis fås til om studentaktivitetene tar i bruk appen for å ha en samlingsportal for events og samlinger. Til den tid skal det være best mulig integrert med Facebook for innlogging gjennom FB og mulighet for deling av events direkte til Facebook.
 
+### Teknisk
 
+Prosjektet er utviklet i Java, i Android Studio for Android 7.0. For bruk av datasett konverterte vi de aktuelle datasettene for dette stadiet ved å konvertere JSON til .kml ved hjelp av en converter, og videre implementert disse data ved Google Maps API og google-maps-utils. Autentisering er ikke implementert i denne versjonen (sjekk av credentials er satt vekk). For å illustrere bruk av profildata opprettet vi en lokal UserModel-klasse, som konstrueres ved oppstart.
