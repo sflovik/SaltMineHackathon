@@ -37,18 +37,21 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private GoogleMap mMap;
 
 
+
+
+
+    private String category;
+
     private Marker testMarker;
-    private String lookingFor = "";
+    private static String lookingFor = "";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
 
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-
 
 
         Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbarMap);
@@ -65,11 +68,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapFragment.getMapAsync(this);
 
 
-
-
-
     }
-
 
 
     @Override
@@ -77,14 +76,44 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         mMap = googleMap;
         MapFragment mapFrag = (MapFragment) getFragmentManager().findFragmentById(map);
-        try {
-            KmlLayer layer = new KmlLayer(mMap, R.raw.idrett, this);
-            layer.addLayerToMap();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
+        MainActivity mainActivity = new MainActivity();
+        boolean sport = mainActivity.isSport();
+        boolean culture = mainActivity.isCulture();
+        boolean recreation = mainActivity.isRecreation();
+        if (mainActivity.isSport()) {
+            try {
+                KmlLayer layer = new KmlLayer(mMap, R.raw.idrett, this);
+                layer.addLayerToMap();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
         }
+        else if (mainActivity.isCulture()) {
+            try {
+                KmlLayer layer = new KmlLayer(mMap, R.raw.kultur, this);
+                layer.addLayerToMap();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+
+        } else if (mainActivity.isRecreation()) {
+            try {
+                KmlLayer layer = new KmlLayer(mMap, R.raw.rekreasjon, this);
+                layer.addLayerToMap();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        }
+
 
 
         LatLng sydney = new LatLng(-34, 151);
@@ -97,9 +126,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.setOnMarkerClickListener((GoogleMap.OnMarkerClickListener) this);
 
 
-
-
     }
+
     public boolean onMarkerClick(final Marker marker) {
         if (marker.equals(testMarker)) {
             createPopup();
@@ -107,12 +135,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
         return false;
     }
+
     public void createPopup() {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         final TextView et = new TextView(this);
         alertDialogBuilder.setView(et);
         et.setText("You found Sidney");
-        alertDialogBuilder.setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener(){
+        alertDialogBuilder.setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
 
             }
@@ -121,11 +150,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }
-    public String getLookingFor() {
-        return lookingFor;
+
+    public String getCategory() {
+        return category;
     }
 
-    public void setLookingFor(String lookingFor) {
-        this.lookingFor = lookingFor;
+    public void setCategory(String category) {
+        this.category = category;
     }
+
 }
