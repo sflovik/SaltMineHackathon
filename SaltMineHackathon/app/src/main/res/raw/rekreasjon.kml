@@ -1,0 +1,2234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Navn" type="string"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="Beskrivelse" type="string"></SimpleField>
+	<SimpleField name="Adresse" type="string"></SimpleField>
+	<SimpleField name="Hjemmeside" type="string"></SimpleField>
+	<SimpleField name="Hovedkategori" type="string"></SimpleField>
+	<SimpleField name="Underkategori" type="string"></SimpleField>
+	<SimpleField name="Tilleggskategori" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="Navn">Blåsthaugen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">29 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.996239692517041,58.066271901918633</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Navn">Barlinddalsheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">147 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.918773163985833,58.125942613016626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Navn">Høyfjellet</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">57 moh. Søndagskafé</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.996602495249653,58.073672724364222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="Navn">Vehusknausen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">285 moh. Høyeste terrengpunkt</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.867895533397992,58.229565788581894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="Navn">Løeknotten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">257 moh. Utsikt mot øst</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.966566014950364,58.196837382527654</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="Navn">Holmenkollen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">115 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.999989614110198,58.179431025575582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="Navn">Redalsheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">205 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.977097717260859,58.180708698403571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="Navn">Ravneheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">144 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.967109642779026,58.156499171607827</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="Navn">Oddersjå</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">229 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.965046042219956,58.18495336208283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="Navn">Skråstadvarden</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">267 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.960428266308376,58.197116340564492</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="Navn">Skråstadfjell</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">220 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.956571277623511,58.190332637710981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="Navn">Volleåsen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">101 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.041403374337671,58.169559114627297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="Navn">Drageknatten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">44 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.988357003220499,58.149491554222102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="Navn">Ringknuten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">78 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.04144699245089,58.159342479043772</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="Navn">Gråmannen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">207 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.911046666075329,58.159671693463871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="Navn">Groknuten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">199 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.917883499299863,58.158566199498473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="Navn">Åmliknuten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">159 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.936835857444436,58.16639936207023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="Navn">Flogvarden</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">194 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.907993075325934,58.148848204304883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="Navn">Øyliheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">161 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.916629308755073,58.135671609979873</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="Navn">Bragdøya</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">32 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.001401856120316,58.117570614189709</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="Navn">Møvik Veten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">96 moh. Gravrøys</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.949094669999338,58.089255511403707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="Navn">Gråheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">35 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.023109819775405,58.081829877660013</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="Navn">Grasåsen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">31 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.971346538955126,58.067844381337153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="Navn">Svensheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">117 moh. Radiofyr for fly</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.907663171912563,58.084813164053948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="Navn">Ravneheia, nedre platå</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">96 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.971216303044792,58.155564027801439</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="Navn">Galgebergtangen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">14 moh. Kanonstillinger fra 2.v.krig</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.015128290102631,58.143812072144847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="Navn">Duekniben</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">98 moh. Friluftsområde.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.974686533367572,58.144238714951285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="Navn">Skarkeheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">122 moh. Minnesmerke 1.v.krig</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.924765766725563,58.098325622651444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="Navn">Slettehei</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">277 moh. Utsiktstårn</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.986845752402949,58.228857649328035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="Navn">Havsyn</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">156 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.165637309240095,58.207336481036194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="Navn">Sodåsen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">87 moh. Vakthytte fra 1897</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.133340791552085,58.124715675400651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="Navn">Lasarettet</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">25 moh. Bygninger fra 1800-tallet</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.000797346775448,58.139913598798344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="Navn">Smørvarden</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">50 moh. Observasjonspost 1940</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.117930061789936,58.111689325272408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="Navn">Haneheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">113 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.981889723517685,58.17465521847064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="Navn">Rosshøyden</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">65 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.99113873824207,58.154044352166437</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="Navn">Brannposten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">40 moh. Infotavle</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.989399700232841,58.150080834807319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="Navn">Uten navn</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">99 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.158442410578122,58.153151430210194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="Navn">Hellerstønuten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">166 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.96594737763891,58.165627161792656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="Navn">Ringåsen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">81 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.034199600550176,58.160738391966355</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="Navn">Ravneheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">100 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.940341368261969,58.102859029853839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="Navn">Møvikknatten</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">72 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.96169976752847,58.0916494234826</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="Navn">Stangefjell</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">36 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.005470030192663,58.067914926213867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="Navn">Store Kjellvarden</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">31 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.981827109839434,58.076043665325045</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="Navn">Trollkjerringheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">44 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.020896306191556,58.14455289255698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="Navn">Bånetjønnkniben</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">166 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.922513110904436,58.197136648189044</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="Navn">Lømslandsheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">195 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.086147112711039,58.228349311823223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="Navn">Jonsbergheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">141 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.926224990345424,58.224696391969367</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="Navn">Moneheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">105 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.094840471850723,58.18826300766905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="Navn">Refskniven</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">38 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.001885339805485,58.089606674412927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="Navn">Fluheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">32 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.00866898889967,58.088248101463797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="Navn">Fluheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">35 moh. Kanonstilling fra 2.v.krig</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.007199026122231,58.087160224524354</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="Navn">Sudrevarden</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">23 moh. Gml. utkikk for loser</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.025300821905168,58.083353943221582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="Navn">Brattåsen</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">44 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.985624687034997,58.06488184812013</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="Navn">Østre Randøy</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">30 moh. Nedl. observasjonspost</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.115526661892034,58.094123030203797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="Navn">Kalkheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">110 moh. Gl. gruveområde, landskapsvern</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.993984023152762,58.172097634781963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="Navn">Fluheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">35 moh. Kanonstilling fra 2. v.krig</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.007615291599576,58.08862856413743</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="Navn">Roksheia</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">127 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.124835958642455,58.163812472466887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="Navn">Odderøya</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">50 moh. Utsikt mot Kvadraturen</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.002063115755261,58.13664218216099</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="Navn">Odderøya</SimpleData>
+		<SimpleData name="Type">Utsiktspunkt</SimpleData>
+		<SimpleData name="Beskrivelse">90 moh.</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Utsiktspunkt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.004185301172351,58.132497872163874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="Navn">Kardemomme by</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse"></SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.141026831499506,58.187034318295254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="Navn">Søm gruve</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Feltspatgruve 1895-1912</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.050940413014036,58.146783324564879</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="Navn">Lyngøya</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Kompassrose</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.046824820603364,58.142340299116398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="Navn">Galgebergtangen</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Festningsvoll fra 1813</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.016183667334305,58.14252334731227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="Navn">Fiskebrygga</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Spisesteder langs Gravane</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.99556049188416,58.141079876663554</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="Navn">Fredriksholm festning</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Festning 1662 - 1874</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.982680995188955,58.09653307153372</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="Navn">Barlinddalshelleren</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Minnesmerke 2. v.krig</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.918903002761525,58.124834455552758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="Navn">Kjærrane</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Sportskapell, sept. - mai</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.921113043508584,58.156434993965441</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="Navn">Gillshytta</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Sportskapell, sept. - mai</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.007334932854718,58.184452376411102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="Navn">Vest-Agder museet</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Bygada, Setesdalstun</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.029327999642538,58.162102144009765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="Navn">Bragdøya kystkultursenter</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse"></SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.983111158655661,58.120417460242884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="Navn">Myren gård</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Parkanlegg, villa i sveitserstil</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.968906381710458,58.133112701306565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="Navn">Kristiansand kanonmuseum</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Batterie Vara, fort fra 2. v.krig</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.968463020971661,58.090731797512561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="Navn">Bredalsholmen</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Veteranskipsverft</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.990500376237946,58.110417156845955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="Navn">Knarrestad</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Tveit bygdemuseum</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.134323871233651,58.23694308770181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="Navn">Gimle gård</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Gimle gård, Agder Naturmuseum</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.003689384701744,58.15843908686562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="Navn">Christiansholm festning</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Festningsanlegg ferdig 1672</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.002885026107643,58.14449204972329</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="Navn">Odderøya, Søndre batteri</SimpleData>
+		<SimpleData name="Type">Severdighet</SimpleData>
+		<SimpleData name="Beskrivelse">Søndagskafé,Odderøyas venner</SimpleData>
+		<SimpleData name="Adresse"></SimpleData>
+		<SimpleData name="Hovedkategori">Severdighet</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.009350415406708,58.130985206171601</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="Navn">Ravnedalen</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Ravnedalsveien 34, 4616 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#ravnedalen</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.97372258157984,58.156802879295277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="Navn">Wergelandsparken</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Kirkegata 16, 4611 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#wergelandsparken</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.995601592972799,58.146715213540034</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="Navn">Otterdalsparken</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Strandpromenaden 8,4610  Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#otterdalsparken</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.99992347392939,58.142967616405592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="Navn">Bystranda</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Tangen 8, 4608 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#bystranda</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.00610131631246,58.146264254471618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="Navn">Tresse og Christiansholm festning</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Østre Strandgate 52, 4610 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#tresse-og-christiansholm-festning</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.00207407312111,58.145231784165816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="Navn">Børsparken</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Rådhusgata 1, 4611 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#b-rsparken</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.992213405314801,58.144620242817339</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="Navn">Stener Heyerdahlspark</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Tordenskjoldsgate 52, 4612 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#stener-heyerdahlspark</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.992698632529092,58.149141514832792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="Navn">Myren gård</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Myrbakken 5, 4621 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#myren-g-rd</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.969261185107151,58.132784339373373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="Navn">Nordenparken, Auglandsbukta</SimpleData>
+		<SimpleData name="Type">Offentlig park</SimpleData>
+		<SimpleData name="Adresse">Vågsbygdveien 51, 4621 Kristiansand</SimpleData>
+		<SimpleData name="Hjemmeside">https://www.kristiansand.kommune.no/kultur-og-fritid/friluftsliv/parker/#nordenparken-auglandsbukta</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Offentlig park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.960445577758358,58.119945913058402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="Navn">Blomsbukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.018709434191166,58.144013337402498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="Navn">Grimsvann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.927663489881743,58.125244080726972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="Navn">Paulens Geiderøy</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.020179444952198,58.087604989180576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="Navn">Nordre Gillsvann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.031566352213323,58.196011772190197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="Navn">Hamresanden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.080462374609668,58.190597697213093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="Navn">Solvika</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.083451076386245,58.180217672403671</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="Navn">Piningen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.08215347213441,58.177783119292663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="Navn">Tangen, Sukkevann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.097559961077456,58.149526856020714</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="Navn">Gunnersnesbukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.971758109790542,58.089739406732321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="Navn">Hånestangen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.072905166063903,58.173808970683446</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="Navn">Nordtjønn</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.93612886041768,58.127676800157936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="Navn">Tretjønn</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.029999319500464,58.173606881984483</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="Navn">Hestevann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.905082920387549,58.223050989928296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="Navn">Bystranda</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.007032436661177,58.14608771876879</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="Navn">Bendiksbukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.003196943321877,58.138656292293241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="Navn">Bråvann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.930706726015103,58.113622178056225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="Navn">Storenes</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.964535720782534,58.117416427761903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="Navn">Ytre Eigevann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.951699299179459,58.140002408672068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">105</SimpleData>
+		<SimpleData name="Navn">Indre Eigevann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.945097194820225,58.14521248311442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">106</SimpleData>
+		<SimpleData name="Navn">Bertesbukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.031581045710524,58.145840509659543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">107</SimpleData>
+		<SimpleData name="Navn">Fuglevikstranda</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.050758034297248,58.145965518383576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">108</SimpleData>
+		<SimpleData name="Navn">Møvikstranda</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.979354514454261,58.100262503516504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">109</SimpleData>
+		<SimpleData name="Navn">Karistrand</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.981431102219915,58.10087454589862</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="Navn">Paradisbukta, Andøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.984708004754142,58.107705204613296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">111</SimpleData>
+		<SimpleData name="Navn">Sølvbukta, Andøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.989540425619352,58.108060272434059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">112</SimpleData>
+		<SimpleData name="Navn">Kvarenes</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.158972409080024,58.123799103427189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">113</SimpleData>
+		<SimpleData name="Navn">Håklova</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.134681476124156,58.110700330951502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">114</SimpleData>
+		<SimpleData name="Navn">Kongshavn</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.112165419476606,58.11640224304368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">115</SimpleData>
+		<SimpleData name="Navn">Fidjekilen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Beskrivelse">Dvergsnesbukta</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.080586051812251,58.130317564083782</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">116</SimpleData>
+		<SimpleData name="Navn">Gillsvann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Beskrivelse">Gåsetangen</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.028665498781368,58.183243758658108</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">117</SimpleData>
+		<SimpleData name="Navn">Paradisbukta, Bleget</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.04706580118979,58.177440755039228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">118</SimpleData>
+		<SimpleData name="Navn">Vollevannet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.037696103473534,58.170638086031524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">119</SimpleData>
+		<SimpleData name="Navn">Øvre Jegersbergvann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.000682765955414,58.170802713497494</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">120</SimpleData>
+		<SimpleData name="Navn">Søylebukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.984438012152109,58.120841338502188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">121</SimpleData>
+		<SimpleData name="Navn">Badebukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.001690404134592,58.119115477091022</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">122</SimpleData>
+		<SimpleData name="Navn">Langøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.003326287916599,58.11978649819617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">123</SimpleData>
+		<SimpleData name="Navn">Bestemorsmed</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.002468755813064,58.064063484428409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">124</SimpleData>
+		<SimpleData name="Navn">Ytre Lindøy</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.016846981847099,58.061383141744763</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">125</SimpleData>
+		<SimpleData name="Navn">Indre Lindøy</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.021235720532987,58.064790095365531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">126</SimpleData>
+		<SimpleData name="Navn">Langøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.022439972456821,58.069930335267777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">127</SimpleData>
+		<SimpleData name="Navn">Grasholmen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.028084676183203,58.076672308811411</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">128</SimpleData>
+		<SimpleData name="Navn">Risleviga</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.975216695694255,58.079132364417333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">129</SimpleData>
+		<SimpleData name="Navn">Skudeholmen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.00986865054997,58.072232465018452</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">130</SimpleData>
+		<SimpleData name="Navn">Kjerregårdsbukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.008847295189467,58.135799027497129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">131</SimpleData>
+		<SimpleData name="Navn">Ugelen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.97015700209329,58.065428023167136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">132</SimpleData>
+		<SimpleData name="Navn">Tretjønn</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.028020799740927,58.174343767419977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">133</SimpleData>
+		<SimpleData name="Navn">Farvannet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.058743854905442,58.236462211067611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">134</SimpleData>
+		<SimpleData name="Navn">Sømsstranda</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.050838050470828,58.153179331610602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">135</SimpleData>
+		<SimpleData name="Navn">Kirkesundet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.10496205513247,58.101217468285434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">136</SimpleData>
+		<SimpleData name="Navn">Stokksundet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.107585779067906,58.111037734030724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">137</SimpleData>
+		<SimpleData name="Navn">Dvergsøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.055855085075658,58.111596151928978</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">138</SimpleData>
+		<SimpleData name="Navn">Sandvika</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.925404162087291,58.091175728052093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">139</SimpleData>
+		<SimpleData name="Navn">Buholmsanden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.111882742084726,58.092816872068148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">140</SimpleData>
+		<SimpleData name="Navn">Lakseviga</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.016092984800563,58.087965760713125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">141</SimpleData>
+		<SimpleData name="Navn">Lille Risøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.016240550768996,58.091893956651987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">142</SimpleData>
+		<SimpleData name="Navn">Buvannet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.949856424217294,58.094155616368717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">143</SimpleData>
+		<SimpleData name="Navn">Galgebergtangen, østre del</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.025230828078312,58.142599667111881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">144</SimpleData>
+		<SimpleData name="Navn">Gleodden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.035388998347685,58.144519799303445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">145</SimpleData>
+		<SimpleData name="Navn">Fuglevikstranda</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.0505705264823,58.144023973282366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">146</SimpleData>
+		<SimpleData name="Navn">Lyngøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.045614730399114,58.140169180354121</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">147</SimpleData>
+		<SimpleData name="Navn">Prestøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.048867418235174,58.130867349002216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">148</SimpleData>
+		<SimpleData name="Navn">Revholmane</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.04280040456988,58.127797579697301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">149</SimpleData>
+		<SimpleData name="Navn">Dvergsnestangen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.062188876703793,58.120142920250963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">150</SimpleData>
+		<SimpleData name="Navn">Barlønnviga</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.002320163816114,58.065857632987893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">151</SimpleData>
+		<SimpleData name="Navn">Sildenestangen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.9874159001518,58.081552468784224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">152</SimpleData>
+		<SimpleData name="Navn">Vollevannet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.026713479277252,58.166488419133344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">153</SimpleData>
+		<SimpleData name="Navn">Hamresanden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.086726364156782,58.186911616022897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">154</SimpleData>
+		<SimpleData name="Navn">Stokksundet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.106669419498084,58.108915447272089</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">155</SimpleData>
+		<SimpleData name="Navn">Randholmsanden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.115795158768098,58.090362075285427</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">156</SimpleData>
+		<SimpleData name="Navn">Øvre Jegersbergvann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.00794764908373,58.17042211438735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">157</SimpleData>
+		<SimpleData name="Navn">3. Stampe</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.986371897446102,58.153842809932669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">158</SimpleData>
+		<SimpleData name="Navn">Korsvikfjorden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.073860499903446,58.141425143790897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">159</SimpleData>
+		<SimpleData name="Navn">Topdalstø</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.047616654195735,58.168313391738209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">160</SimpleData>
+		<SimpleData name="Navn">Krageviga</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.010827336562906,58.087918975302806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">161</SimpleData>
+		<SimpleData name="Navn">Store Risøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.019593681462439,58.094290871334245</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">162</SimpleData>
+		<SimpleData name="Navn">Skylleviga</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.007779269046909,58.069231865031739</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">163</SimpleData>
+		<SimpleData name="Navn">Stefansneset</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.975391554971612,58.08779036594747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">164</SimpleData>
+		<SimpleData name="Navn">Hellevika</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.911244609226492,58.071500885246664</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">165</SimpleData>
+		<SimpleData name="Navn">Paradisbukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.996761494681984,58.115832875303205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">166</SimpleData>
+		<SimpleData name="Navn">Kongshavn</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Beskrivelse">Ristangbukta</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.001585009547025,58.11602577376339</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">167</SimpleData>
+		<SimpleData name="Navn">Dybingen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.997811421383118,58.126354351170363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">168</SimpleData>
+		<SimpleData name="Navn">Indre Eigevann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.939777000793235,58.150649630013234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">169</SimpleData>
+		<SimpleData name="Navn">Prestøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.049838523446747,58.133833460350914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">170</SimpleData>
+		<SimpleData name="Navn">Dvergsnestangen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.063751587108714,58.122195610995064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">171</SimpleData>
+		<SimpleData name="Navn">Dvergsøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.059826000851494,58.11096636804313</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">172</SimpleData>
+		<SimpleData name="Navn">Tretjønn</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.02439166104581,58.172540510484531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">173</SimpleData>
+		<SimpleData name="Navn">Hamresanden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.07341339109791,58.192782683862781</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">174</SimpleData>
+		<SimpleData name="Navn">Grovika</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.08340565393269,58.184955677741058</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">175</SimpleData>
+		<SimpleData name="Navn">Piningen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.080301947933927,58.177433550704819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">176</SimpleData>
+		<SimpleData name="Navn">Nesodden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.163469699380009,58.123088198188078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">177</SimpleData>
+		<SimpleData name="Navn">Kvarodden</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.162298423730423,58.118142640693328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">178</SimpleData>
+		<SimpleData name="Navn">Torsøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.136934378957095,58.097382566882743</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">179</SimpleData>
+		<SimpleData name="Navn">Jillertangen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.133297854292687,58.109751879301569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">180</SimpleData>
+		<SimpleData name="Navn">Stokken</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.106114406618298,58.113444805680977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">181</SimpleData>
+		<SimpleData name="Navn">Vabotjønn</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.100252606087361,58.122074144577546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">182</SimpleData>
+		<SimpleData name="Navn">Andøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.984945405877157,58.114751245099363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">183</SimpleData>
+		<SimpleData name="Navn">Andøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.981031108467242,58.116463306314216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">184</SimpleData>
+		<SimpleData name="Navn">Odderøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.00253848860434,58.140676475234663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">185</SimpleData>
+		<SimpleData name="Navn">Ledholmen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.089131358615923,58.107880251602651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">186</SimpleData>
+		<SimpleData name="Navn">Store Langøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.930554461801737,58.078840381119726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">187</SimpleData>
+		<SimpleData name="Navn">Tjamsøya</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.927748141017116,58.070316568948918</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">188</SimpleData>
+		<SimpleData name="Navn">Tjønnholmane</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.187531507131498,58.123901030277537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">189</SimpleData>
+		<SimpleData name="Navn">Kjevikstranda</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.070378745907764,58.200968182946269</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">190</SimpleData>
+		<SimpleData name="Navn">Ålefjærviga</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.031384902103989,58.235924974144311</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">191</SimpleData>
+		<SimpleData name="Navn">Skinnertangen</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.04360127669659,58.198030178907473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">192</SimpleData>
+		<SimpleData name="Navn">Justnessundet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.04396725140837,58.190281899822551</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">193</SimpleData>
+		<SimpleData name="Navn">Steffensvika</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.047992138482325,58.187794046693924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">194</SimpleData>
+		<SimpleData name="Navn">Osmundsviga</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.049718751529552,58.185455258041031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">195</SimpleData>
+		<SimpleData name="Navn">Eidsbukta</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.037022859768928,58.182604635152288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">196</SimpleData>
+		<SimpleData name="Navn">Gillsvannet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.029950492451553,58.187990781030145</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">197</SimpleData>
+		<SimpleData name="Navn">Gillsvannet</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.030608158533491,58.18531156015522</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">198</SimpleData>
+		<SimpleData name="Navn">Øvre Jegersbergvann</SimpleData>
+		<SimpleData name="Type">Badeplass</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Badeplass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.006477313654266,58.173281192658131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">200</SimpleData>
+		<SimpleData name="Navn">Voie</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.948073107721839,58.101492928729478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">201</SimpleData>
+		<SimpleData name="Navn">Jegersberg</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.012675947423634,58.167437900368888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">202</SimpleData>
+		<SimpleData name="Navn">Baneheia</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.98858654700922,58.155554046203612</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">203</SimpleData>
+		<SimpleData name="Navn">Hellemyr</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.921720104266341,58.148799538605147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">204</SimpleData>
+		<SimpleData name="Navn">Strai</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.924173716265347,58.1879750124521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">205</SimpleData>
+		<SimpleData name="Navn">Elveparken</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.002920884953186,58.14974749322473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">206</SimpleData>
+		<SimpleData name="Navn">Dønnestad, Tveit</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.121166283233446,58.214678357646314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">207</SimpleData>
+		<SimpleData name="Navn">Sukkevann</SimpleData>
+		<SimpleData name="Type">Lysløyper / merket tursti</SimpleData>
+		<SimpleData name="Hovedkategori">Rekreasjon</SimpleData>
+		<SimpleData name="Underkategori">Lysløyper / merket tursti</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.087984309380113,58.152593574331313</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

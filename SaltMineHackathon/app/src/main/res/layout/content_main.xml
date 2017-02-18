@@ -14,26 +14,41 @@
     tools:showIn="@layout/app_bar_main">
 
     <Button
-        android:text="Opprett hendelse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kultur"
+        android:textAllCaps="false"
+        android:layout_marginBottom="202dp"
+        android:id="@+id/btnCulture"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnRecreation"
+        android:layout_alignStart="@+id/btnRecreation"
+        android:layout_alignRight="@+id/btnRecreation"
+        android:layout_alignEnd="@+id/btnRecreation" />
+
+    <Button
+        android:text="Rekreasjon"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:id="@+id/btnCreateActivity"
-        android:layout_marginTop="27dp"
-        android:layout_below="@+id/btnLookForActivity"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/btnRecreation"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Finn hendelse"
+        android:text="Idrett"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:id="@+id/btnLookForActivity"
-        android:layout_marginTop="173dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/btnCreateActivity"
-        android:layout_alignStart="@+id/btnCreateActivity"
-        android:layout_alignRight="@+id/btnCreateActivity"
-        android:layout_alignEnd="@+id/btnCreateActivity" />
+        android:id="@+id/btnSports"
+        android:layout_alignBottom="@+id/btnRecreation"
+        android:layout_marginBottom="68dp"
+        android:layout_alignLeft="@+id/btnRecreation"
+        android:layout_alignStart="@+id/btnRecreation"
+        android:layout_alignRight="@+id/btnRecreation"
+        android:layout_alignEnd="@+id/btnRecreation" />
 
 </RelativeLayout>
