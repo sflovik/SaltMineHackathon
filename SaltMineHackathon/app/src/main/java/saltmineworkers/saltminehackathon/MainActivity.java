@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
         Button btnSports = (Button) findViewById(R.id.btnSports);
         Button btnRecreation = (Button) findViewById(R.id.btnRecreation);
 
-        // Button listeners to manage the different map activity setups
+        // Button listeners, changes boolean values to customize map views based on category chosen
 
         btnCulture.setOnClickListener (new View.OnClickListener() {
             public void onClick(View v){

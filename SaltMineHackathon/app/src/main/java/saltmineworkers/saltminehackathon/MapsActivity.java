@@ -60,7 +60,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     /**
-     * Method implementing Google Maps through the Google Maps API.
+     * Class implementing Google Maps through the Google Maps API.
      * The method checks which activity the user chose and shows the relevant markers in the map
      * based on the dataset provided by "Kristiansand Kommune". The data sets are converted to files
      * with more preferable geographical coordinates than UTM. With a converter, we passed a
