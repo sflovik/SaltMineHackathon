@@ -13,4 +13,88 @@
     tools:context="saltmineworkers.saltminehackathon.PreferenceActivity"
     tools:showIn="@layout/app_bar_preference">
 
+
+    <CheckBox
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:id="@+id/preferences_checkbox1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Her kan du krysse av interessene dine for å få skreddersydd informasjon"
+        android:textStyle="bold"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idrett"
+        android:id="@+id/textView2"
+        android:layout_alignBaseline="@+id/preferences_checkbox2"
+        android:layout_alignBottom="@+id/preferences_checkbox2"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:textSize="10pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekreasjon"
+        android:id="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:textSize="10pt" />
+
+    <CheckBox
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:id="@+id/preferences_checkbox2"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp" />
+
+    <CheckBox
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:id="@+id/preferences_checkbox3"
+        android:layout_below="@+id/preferences_checkbox1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kultur"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:textSize="10pt"
+        android:layout_alignBaseline="@+id/preferences_checkbox3"
+        android:layout_alignBottom="@+id/preferences_checkbox3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lagre"
+        android:layout_below="@+id/preferences_checkbox3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:id="@+id/button2" />
+
+
 </RelativeLayout>

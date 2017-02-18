@@ -19,19 +19,25 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-
+    //The different categories a user can choose after login
     private static boolean culture = true;
     private static boolean sport = true;
     private static boolean recreation = true;
+
+    /**
+     * Startup method for main page
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        // Customizing the action bar
         getSupportActionBar().setTitle("Hjem");
 
-
+        // Making the navigation bar (menu)
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -40,9 +46,14 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        // The different buttons that links to different map viewings
+        // This is to change with future development, but illustrates the purpose of the app
         Button btnCulture = (Button) findViewById(R.id.btnCulture);
         Button btnSports = (Button) findViewById(R.id.btnSports);
         Button btnRecreation = (Button) findViewById(R.id.btnRecreation);
+
+        // Button listeners to manage the different map activity setups
 
         btnCulture.setOnClickListener (new View.OnClickListener() {
             public void onClick(View v){
@@ -75,6 +86,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    // Back button/menu configuration
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -84,6 +96,7 @@ public class MainActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -105,6 +118,8 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    // The different menu items that are accessible from the app. Help and FAQ is postponed
+    // until a future version.
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -131,6 +146,9 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    // Checkers and setters for the categories
+
     public boolean isCulture() {
         return culture;
     }

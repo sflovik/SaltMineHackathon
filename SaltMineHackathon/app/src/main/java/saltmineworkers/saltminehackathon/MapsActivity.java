@@ -31,7 +31,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private Marker testMarker;
     private static String lookingFor = "";
 
-
+    /**
+     * Startup method for the maps activity
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -56,7 +59,15 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     }
 
-
+    /**
+     * Method implementing Google Maps through the Google Maps API.
+     * The method checks which activity the user chose and shows the relevant markers in the map
+     * based on the dataset provided by "Kristiansand Kommune". The data sets are converted to files
+     * with more preferable geographical coordinates than UTM. With a converter, we passed a
+     * JSON file with UTM coordinates and got a KLM file with Lon/Lat coordinate format which
+     * suited our app perfectly.
+     * @param googleMap
+     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
 
